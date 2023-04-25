@@ -24,6 +24,5 @@ export class DogComponent implements OnInit {
   }
   getBreed (): string []{
     return this.dog.message.split("/")[4].split("-");
-
   }
 }
