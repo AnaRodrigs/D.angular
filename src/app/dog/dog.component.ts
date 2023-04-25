@@ -11,7 +11,6 @@ export class DogComponent implements OnInit {
   dog : Dog = {} as Dog;
 
   constructor(private service : DogService){}
-
   ngOnInit(): void {
    this.loadDog();
 }
